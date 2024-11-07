@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--custom fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>AFRICAN TOUR (AFRITOUR)</title>
+    
+</head>
+<body>
+<!-- header section  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars fa-2xl"></div>
+
+    <a href="#" class="logo"><span>Afri</span>Tour</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">African gallery</a>
+        <a href="#testimonials">testimonials</a>
+        <a href="#contact">contact</a>
+        <a href="#team">Our Team</a>
+
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search fa-2xl" id="search-btn"></i>
+        <i class="fas fa-user fa-2xl" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search fa-xl"></label>
+    </form>
+
+</header>
+
+
+<!-- login form container section -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+<!-- home section  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Welcome to AfriTour Agency</h3>
+        <p> Give yourself time to discover new places with us, just give it a try you will love Africa</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="assets/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="assets/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<!-- book section  -->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="assets/book-img.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!---packages section-->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/zimbabwe.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Zimbabwe</h3>
+                <p>Visit Zimbabwe where you see one of our own Mosi oa tunya, the smoke that thunders (Victoria Fall),
+                     Matusadonha falls, Chinhoyi caves, Inyanga Mountains, game ranching
+                      in Hwange game park, lakes(Tugwi-mukosi, Chibero, Mutirikwi, kyle etc). We have various 
+                    game parks, natural vegitations, hospitable hotels and lodges come and enjoy!!!!!!
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/tanzania.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Tanzania</h3>
+                <p>Visit Tanzania where you see one of our own biggest vocanic mountain, Mt Kilimanjaro.Here we do mountain climping,
+                    also, We have various game parks, natural vegitations, beaches, hospitable hotels and lodges come and enjoy!!!!!!
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/zambia.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Zambia</h3>
+                <p>Visit Zambia where you see one of our own diverse wildlife and Mosi oa tunya, the smoke that thunders (Victoria Fall). We have various 
+                    game parks, natural vegitations, hospitable hotels and lodges come and enjoy!!!!!!
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/egypt.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Egypt</h3>
+                <p>Visit Egypt where you see one of our own the pyramids of Giza in Cairo where you see cultural, religious,
+                     and truly a wonder of the world.
+                     Come and view the wide Black and white Deserts, Egypt's mediterranean coast, Siwa oasis, luxo Marsa Alam etc
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/morocco.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Morocco</h3>
+                <p>Visit Morocco where you see various historic sites which include Bahia Palace, Ben Youssef Madrasa, Medina of Marrakesh
+                    Medina of Fez and Medina of Essaouira. We also have the gardens like the Jardin Majorelle, religious sites like
+                    like the Hassan II Mosque and the place of interest and landmark e.g the Jemaa el-Fnaa. come and enjoy.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/south.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>South Africa</h3>
+                <p>Visit South Africa where we have variety of places of interest.
+                     We have Kruger national park best for safaris, Stellenbosch best for wine tasting, 
+                     we have Knysna best for beaches, we have Johannesburg best for history, Hermanus best for whale-watching, 
+                     Namaqualand best for wildflowers and Blyde river canyon best for paranomic views
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/rwanda.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Rwanda</h3>
+                <p>Visit Rwand where you can enjoy variety of natural vegetations, game parks, wildflowers, waterfall, 
+                    hospitable hotels and lodges. Come and enjoy.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/kenya.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Kenya</h3>
+                <p>Visit Kenya where you see some part of the largest Mountain in Africa which is Mt Kilimanjaro,
+                     Kenya is rich in terms of building beautiful hotels and lodges. just come and feel the great condition in kenya.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/botswana.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Botswana</h3>
+                <p>Visit Botswana where you can have a great view of one of our own desert (Sahara desert). People can visit and do 
+                    some reseaches in this country. We have affordable hotels and lodges in country.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$200.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--services section -->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>O</span>
+        <span>u</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+        
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel fa-xl"></i>
+            <h3>Affordable Hotels and lodges</h3>
+            <p>We provide affordable hotels and lodges. We can give our clients rooms according to what they actually
+                want and afford. Some people like traditional lodges, some religious and other want 
+                luxarious one so we provide variety of hotels and lodges in Africa.
+            </p>
+        </div>
+    <div class="box">
+        <i class="fas fa-utensils fa-xl"></i>
+        <h3>Affordable food and drinks</h3>
+        <p> We provide affordable food and drinks. Here in Africa we cook all dishes, 
+            our hotels provide traditional food based on your culture and believes. 
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane fa-xl"></i>
+        <h3>Safe and Fast Travel</h3>
+        <p>We provide affordable plane tickets.You can order online anytime, anywhere in the world as long you want to come 
+            in Africa for vacation.
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn fa-xl"></i>
+        <h3>Safety Guide</h3>
+        <p>Our company have a well team. We can give our clients our well trained instructers based on what they actually
+            want and afford. They can guide wherever you want to visit.
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking fa-xl"></i>
+        <h3>Adventure</h3>
+        <p> We can teach or help you in your vacation, we have game ranching, boat cruising, swiming, mountain climbing, and other 
+            games, reseachies, archiology, analysis and education.
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-africa fa-xl"></i>
+        <h3>Around Africa</h3>
+        <p>We can help you travel the whole Africa based on what you afford. we have offices around Africa and you can all 
+            follow us online or email us we can respond quickly and assist you.
+        </p>
+    </div>
+    </div>
+</section>
+
+<!--gallery section-->
+<section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>a</span>
+            <span>f</span>
+            <span>r</span>
+            <span>i</span>
+            <span>c</span>
+            <span>a</span>
+            <span>n</span>
+            <span class="space"></span>
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/pic-1.jpg" alt="">
+            <div class="content">
+                <h3>Hospitable places</h3>
+                <p>Just give yourself a short time for a break and visit this place.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-2.jpg" alt="">
+            <div class="content">
+                <h3>Enjoy the Beaches</h3>
+                <p>With this place you can relieve stress. Came and enjoy.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-3.jpg" alt="">
+            <div class="content">
+                <h3>Evergreen Places</h3>
+                <p>feel free to take an adventure to remember. Honde valley in  Zimbabwe</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing islands</h3>
+                <p> an unforgottable visit of a lifetime. Come and enjoy boat cruising with our well trained team.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-5.webp" alt="">
+            <div class="content">
+                <h3>Hospitable Places</h3>
+                <p>Just give yourself a short time for a break and visit this place.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing Baobab Trees</h3>
+                <p> Large baobab trees of Madagasca. pay a visit and see this nature.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-7.jpg" alt="">
+            <div class="content">
+                <h3>luxury Safari lodges</h3>
+                <p>here is  Bumi hills safari lodge which is close to one of the largest man-made lakes in the world, lake kariba.
+                     just pay a visit you can enjoy swimming, boat cruising,and many more .</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing waterfalls</h3>
+                <p>Here we can teach you sky diving,swimming, view the nature of our African beauty.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/pic-9.jpg" alt="">
+            <div class="content">
+                <h3>hospital places</h3>
+                <p> have your time with family in the beaches, enjoy the feeling of our amazing and affordable lodges in the beaches.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--testimonial section-->
+<section class="testimonials" id="testimonials">
+
+    <h1 class="heading">
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>m</span>
+        <span>o</span>
+        <span>n</span>
+        <span>i</span>
+        <span>a</span>
+        <span>l</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper-container testimonials-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/test1.png" alt="">
+                    <h3>Alice Mackyda</h3>
+                <p>visiting to Egypt is one of my vacation i remember. i enjoyed pyramids,
+                     historical churches, culture and type of food.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/test2.jpg" alt="">
+                    <h3>Mafie Wellie</h3>
+                <p>Thanks to AfriTour, i have a wonderful holiday in South Africa. i wish i could say there for a moment. 
+                    i love their culture,food and religion as well as wildlife and the nature.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/test3.png" alt="">
+                    <h3>Miranda Dell</h3>
+                <p>i was a great adventure which i took in Zimbabwe, i enjoyed the sky diving in the Victoria fall gorge, also 
+                    watching animals in the Hwange game park.</p>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/test4.png" alt="">
+                    <h3>Mark Tiana</h3>
+                    <p>i would like to thank the AfriTour for their hospitality. i managed to do my research well in Botswana.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    
+<!--contact section-->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="assets/contact-img.svg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="enter your name">
+                <input type="email" placeholder="enter your email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="enter number of guests">
+                <input type="text" placeholder="enter your subject">
+
+            </div>
+            <textarea placeholder="message........" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<!--brand sections-->
+<section class="brand-container">
+    <div class="swiper-container brand-slider ">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slider"><img src="assets/brand1.jpg" alt=""></div>
+            <div class="swiper-slider"><img src="assets/brand2.png" alt=""></div>
+            <div class="swiper-slider"><img src="assets/brand3.jpg" alt=""></div>
+            <div class="swiper-slider"><img src="assets/brand4.jpg" alt=""></div>
+            <div class="swiper-slider"><img src="assets/brand5.png" alt=""></div>
+            
+
+        </div>
+    </div>
+</section>
+
+<!--our team section-->
+
+<section class="team" id="team">
+
+    <h1 class="heading">
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>t</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+        
+    </h1>
+
+    <div class="swiper-container team-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/sen.jpg" alt="">
+                    <h3>Wellington Zhou</h3>
+                    <span>Senior Instructor</span>
+                <p>Well trained senior Instructor with 12 years experience in this area .</p>
+                
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/ict.png" alt="">
+                    <h3>lee Johnson</h3>
+                    <span>ICT Director</span>
+                <p>This is our ICT Director with 2 years years experience helping in camera locations, network and GPS trackering .</p>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/doc.png" alt="">
+                    <h3>Anah Wyne</h3>
+                    <span>Medical Doctor</span>
+                <p>Welcome our medical doctor with 20 years experience helping our clients well.</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/team.jpg" alt="">
+                    <h3>The Alpha team</h3>
+                    <span>Trained Team</span>
+                    <p>Our well trained team helping in showing our clients as well as teaching our client different sports.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--subscription section-->
+<section class="subscription flex-center" id="service">
+    <h2 data-aos="flip-down">
+      Get Offers Straight <br>
+      to your inbox
+    </h2>
+    <p data-aos="fade-up">Signup for AfriTour Newsletter</p>
+    <div class="subscription_form" data-aos="fade-up">
+      <input type="text" placeholder="Enter Your Email Address">
+      <button>Get Started</button>
+    </div>
+  </section>
+  
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>African tour is a leading tourism agency which is has branches around africa. it has many clients around the world 
+                come to africa for vacations
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">South Africa</a>
+            <a href="#">Kenya</a>
+            <a href="#">Zimbabwe</a>
+            <a href="#">Morocco</a>
+            <a href="#">Egypt</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">testimonials</a>
+            <a href="#">contact</a>
+            <a href="#">Our Team</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Team QodeX Technologies </span> | all rights reserved! </h1>
+
+</section>
+
+
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
